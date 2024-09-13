@@ -70,3 +70,6 @@ class PerfectNumber
     end
   end
 end
+
+# class << self 
+# ^ this idiom lets us operate on the class itself as an object; by adding a private instance method to the class object, we effectively create a private class method.
